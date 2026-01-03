@@ -5,7 +5,7 @@ function History() {
   const [games, setGames] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://wounder-why-solution-backend.onrender.com';
 
   useEffect(() => {
     fetchGames();

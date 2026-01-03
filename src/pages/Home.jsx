@@ -8,7 +8,7 @@ function Home() {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://wounder-why-solution-backend.onrender.com';
 
   const startGame = async (e) => {
     e.preventDefault();

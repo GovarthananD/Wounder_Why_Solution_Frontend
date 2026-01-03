@@ -14,7 +14,7 @@ function Game() {
   const [submitting, setSubmitting] = useState(false);
   const [gameFinished, setGameFinished] = useState(false);
 
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://wounder-why-solution-backend.onrender.com';
   const choices = ['stone', 'paper', 'scissors'];
 
   useEffect(() => {
